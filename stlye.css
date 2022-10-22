@@ -20,9 +20,40 @@ nav {
   align-items: center;
 }
 
+.right img {
+  width: 20px;
+}
+
+.right img:hover {
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.right button {
+  background-color: #8ab4f8;
+  color: #202124;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  min-width: 96px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.right button:hover {
+  cursor: pointer;
+}
+
 navLogo {
   margin-top: 120px;
   display: inline-block;
+  box-shadow: none;
 }
 
 navLogo img {
@@ -39,9 +70,10 @@ searchBar input {
   height: 34px;
   border-color: grey;
   border-width: 1.5px;
-  background-color: #202124 ;
+  background-color: #202124;
   color: #e8eaed;
-
+  box-shadow: none;
+  text-decoration: none;
 }
 
 input:hover {
