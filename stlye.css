@@ -1,6 +1,6 @@
 body {
-    background-color: #202124;
-    color: #bdc1c6
+  background-color: #202124;
+  color: #bdc1c6;
 }
 header {
   text-align: center;
@@ -21,7 +21,7 @@ nav {
 }
 
 navLogo {
-    margin-top: 120px;
+  margin-top: 120px;
   display: inline-block;
 }
 
@@ -29,36 +29,39 @@ navLogo img {
   width: 300px;
 }
 
-
 main {
-    text-align: center;
+  text-align: center;
 }
 
 searchBar input {
-    border-radius: 16px;
-    width: 70%;
-    height: 30px;
-    border-color: grey;
-    border-width: 1.5px;
+  border-radius: 16px;
+  width: 50%;
+  height: 34px;
+  border-color: grey;
+  border-width: 1.5px;
+  background-color: #202124 ;
+  color: #e8eaed;
+
 }
 
-searchBar input:hover{
-    color: #bdc1c6;
+input:hover {
+  background-color: #34353a;
+  color: #e8eaed;
+  cursor: text;
 }
 
 .inputButtons {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .inputButtons button {
-    border-radius: 4px;
-    width: 100px;
-    height: 30px;
-    border-color: grey;
-    border-width: 0px;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  border-color: grey;
+  border-width: 0px;
 }
 
-
 svg {
-    width: 30px;
+  width: 30px;
 }
