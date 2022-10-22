@@ -1,0 +1,64 @@
+body {
+    background-color: #202124;
+    color: #bdc1c6
+}
+header {
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+
+navLogo {
+    margin-top: 120px;
+  display: inline-block;
+}
+
+navLogo img {
+  width: 300px;
+}
+
+
+main {
+    text-align: center;
+}
+
+searchBar input {
+    border-radius: 16px;
+    width: 70%;
+    height: 30px;
+    border-color: grey;
+    border-width: 1.5px;
+}
+
+searchBar input:hover{
+    color: #bdc1c6;
+}
+
+.inputButtons {
+    margin-top: 10px;
+}
+
+.inputButtons button {
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    border-color: grey;
+    border-width: 0px;
+}
+
+
+svg {
+    width: 30px;
+}
